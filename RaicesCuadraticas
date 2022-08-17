@@ -1,0 +1,21 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+#include "conio.h"
+#define PI 3.1416
+using namespace std;
+
+void main(){
+	float perimetro, area, radio;
+	cout<<"introduzca el radio: ";
+	cin>>radio;
+	char perimetro= 2*PI*radio;
+	cout<<"encontrar perimetro: ";
+	cout<< perimetro;
+	area=PI*pow(radio,2);
+	cout<<"el area es: "; 
+	cout<< area;
+	getch();
+	return 0; 
+}

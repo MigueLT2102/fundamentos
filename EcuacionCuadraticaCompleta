@@ -1,0 +1,37 @@
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main(){
+	float a,b,c,d,x1,x2;
+	cout<<"ingresar a"<<endl;
+	cin>>a;
+	if (a==0)
+		cout<<"no tiene solucion"<<endl;
+	else
+		{ 
+			cout<<"ingresar b"<<endl;
+			cin>>b;
+			cout<<"ingresar c"<<endl;
+			cin>>c;
+			d=(pow(b,2)-4*a*c);
+			if (d==0) //solucion unica
+		        cout<<"x1= "<<(-b/2*a);
+			else 
+				if (d>0) //solucion reales
+					x1= (-b+sqrt(d))/(2*a);
+			        x2= (-b+sqrt(d)/(2*a);
+					cout<<"solucion x1"<<x1<<endl;
+					cout<<"solucion x2"<<x2<<endl;
+			}
+	
+					{ 
+
+
+
+
+	
+	return 0;
+}
